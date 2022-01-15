@@ -168,12 +168,11 @@ body{
      
  }
  /* bonus part delivery products------ */
- .delivery{
-    background-image: url(images/dhaka.jpg);
 
+ 
  .delivery-shops{
     display: grid;
-    grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns:repeat(3,1fr) ;
     grid-column-gap: 10px;
     margin-left: 60px;
     margin-right: 70px;
@@ -227,7 +226,9 @@ body{
          grid-template-columns: repeat(1, 1fr);
          
      }
-     
+     .delivery-shops{
+        grid-template-columns:repeat(1,1fr) ;
+     } 
      
     
  }
@@ -250,5 +251,8 @@ body{
          
          grid-template-columns: repeat(2, 1fr);
      }
-    
+     .delivery-shops{
+        
+        grid-template-columns:repeat(2,1fr) ;
  }
+}
