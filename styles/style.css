@@ -168,22 +168,20 @@ body{
      
  }
  /* bonus part delivery products------ */
+ .delivery{
+    background-image: url(images/dhaka.jpg);
 
- .delivery-location{
+ .delivery-shops{
     display: grid;
     grid-template-columns:repeat(2,1fr) ;
     grid-column-gap: 10px;
     margin-left: 60px;
-   margin-right: 70px;
-   margin-top: 140px;
+    margin-right: 70px;
+    margin-top: 140px;
+    align-items: baseline;
+    justify-items: center;
  }
- .dhaka-location img{
-     width: 50%;
-     height: 500px;
- }
- .chittagong-location img{
-     width: 50%;
- }
+ 
 
  /* influencer-products-----
  -------------------- */
